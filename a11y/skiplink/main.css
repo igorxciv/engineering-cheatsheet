@@ -1,0 +1,55 @@
+
+/* SkipLink */
+
+.page__skip-link {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  padding: 8px;
+  background: red;
+  color: white;
+}
+
+.page__skip-link:focus {
+  top: 0;
+}
+
+/* Page */
+
+.page {
+  font-family: sans-serif;
+}
+
+/* Header */
+
+.page__header {
+  border-bottom: 1px solid lightslategrey;
+}
+
+/* Navigation */
+
+.navigation {
+  padding: 10px 30px;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__item {
+  text-transform: uppercase;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: black;
+}
+
+/* Content */
+.page__content {
+  padding: 10px 20px;
+}
